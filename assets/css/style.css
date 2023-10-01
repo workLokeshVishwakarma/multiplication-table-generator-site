@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+.LcH-100 {
+    min-height: 100vh;
+    max-height: auto;
+}
+
+.mycustom {
+    border: solid 2px green;
+    position: relative;
+}
+
+.mycustom:hover {
+    border: solid 5px green;
+}
+
+.mycustom input[type=text] {
+    border: none;
+    width: 100%;
+    padding-right: 87px;
+}
+
+.mycustom .input-group-prepend {
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    bottom: 4px;
+    z-index: 9;
+}
+
+.LcS {
+    box-shadow: 5px 5px 20px 1px #383a3e;
+}
+
+.coptConti {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+}
+
+.copyTxtCon {
+    cursor: pointer;
+}
+
+.copyTxtCon:hover {
+    letter-spacing: 1px;
+}
+
+.resetBtn {
+    cursor: pointer;
+    float: right;
+}
+
+.resetBtn:hover {
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 650px) {
+    .coptConti {
+        justify-content: center;
+    }
+}
